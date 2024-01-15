@@ -22,6 +22,7 @@ def summarize_text(text):
     # ...
     summary = "This is the generated summary."  # Replace with actual summary generation
     return summary
+    # made by Debanka Das - https://github.com/erdebankadas; also follow my page - https://fossbyte.in/
 
 
 
@@ -57,6 +58,7 @@ def modify_text_enhanced(description):
     modified_description = " ".join(set(modified_description.split()))  # Keep unique words
 
     return modified_description
+    # made by Debanka Das - https://github.com/erdebankadas; also follow my page - https://fossbyte.in/
 
     # return modified_description
 
@@ -106,6 +108,7 @@ for product in products:
 
         # Choose your preferred text generation approach:
         modified_description = modify_text_enhanced(description)  # Enhanced techniques
+        # made by Debanka Das - https://github.com/erdebankadas; also follow my page - https://fossbyte.in/
         
 
         product_data.append({

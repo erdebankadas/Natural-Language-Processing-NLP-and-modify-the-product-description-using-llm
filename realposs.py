@@ -23,6 +23,7 @@ def summarize_text(text):
     # ...
     summary = "This is the generated summary."  # Replace with actual summary generation
     return summary
+    # made by Debanka Das - https://github.com/erdebankadas; also follow my page - https://fossbyte.in/
 
 
 
@@ -34,6 +35,7 @@ def modify_text_enhanced(description):
     # Enhanced sentence-level variations:
     sentences = sent_tokenize(description)
     random.shuffle(sentences)  # Simple shuffling
+    # made by Debanka Das - https://github.com/erdebankadas; also follow my page - https://fossbyte.in/
 
 
     # Enhanced word-level variations:
@@ -70,6 +72,7 @@ def modify_text_enhanced(description):
     modified_description = " ".join(set(modified_description.split()))
 
     return modified_description
+# made by Debanka Das - https://github.com/erdebankadas; also follow my page - https://fossbyte.in/
 
   
 
@@ -108,6 +111,7 @@ for product in products:
         })
     except NoSuchElementException:
         print("Error: Some product elements not found. Skipping...")
+        # made by Debanka Das - https://github.com/erdebankadas; also follow my page - https://fossbyte.in/
 
 
 
